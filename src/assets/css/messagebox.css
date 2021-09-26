@@ -1,0 +1,75 @@
+.message-box{
+    background: #fff;
+    width: 350px;
+}
+.message-user-box:hover{
+    background-color: rgba(var(--b3f,250,250,250),1);
+    cursor: pointer;
+}
+.message-box-username{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.message-box-username:hover{
+    cursor: pointer;
+}
+.message-box-create-message:hover{
+    cursor: pointer;
+}
+.message-box-current-user{
+    font-size: 16px;
+    height: 60px;
+    border-bottom: 1px solid #dee2e6 ;
+}
+.message-box-all-users{
+    min-height: 100%;
+    max-height: 510px;
+    overflow: auto;
+}
+.message-user-box{
+    max-height: 72px;
+    min-height: 72px;
+    overflow: hidden;
+}
+.message-user-box-username{
+    line-height: 12px;
+    letter-spacing: -1px;
+}
+.message-time-dot{
+    color: #999;
+}
+.message-time-dot::before{
+    content: '';
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 15%;
+}
+.message-detail{
+    background: #fff;
+    width: 607px;
+    min-height: 100%;
+    max-height: 575px;
+    overflow: hidden;
+}
+.user-arrow{
+    padding-top : 3px;
+    padding-left:5px;
+    font-weight :bold;
+}
+.no-message-button{
+    font-size: 12px!important;
+    background :#0095f6!important;
+}
+.no-message-body{
+    font-size :14px;
+    font-weight :400;
+    color : rgba(var(--f52,142,142,142),1);
+} 

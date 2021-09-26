@@ -1,0 +1,34 @@
+.stories{
+    overflow: hidden;
+    background: #fff;
+}
+.story-box{
+    max-width: 64px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+.story-box:first-child{
+    margin-left: 20px;
+}
+.story-title{
+    max-width: 64px;
+    letter-spacing: .01em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    line-height: 14px;
+    display: block;
+    text-align: center;
+    white-space: nowrap;
+}
+.stories .story{
+    width: 64px;
+    height: 64px;   
+    border-radius: 50%;
+    border: 3px solid #f09433;
+}
+.stories .story img{
+    border-radius: 50%;
+    object-fit: contain;
+    border: 2px solid #fff;
+}

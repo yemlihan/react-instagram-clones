@@ -1,0 +1,157 @@
+.main{
+    gap: 0;
+}
+.profile-info {
+    padding: 5px 60px;
+    margin-bottom: 50px;
+}
+.profile-settings span{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color : rgba(var(--i1d,38,38,38),1);
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 200;
+    width: 150px;
+}
+.profile-edit button{
+    outline: none;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    background-color: transparent;
+    border-radius: 5px;
+    color: rgba(var(--f75,38,38,38),1);
+    user-select: auto;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 3px 15px;
+}
+.profile-followers ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+}
+.profile-all-infos{
+    padding-left: 120px;
+}
+.profile-setting-icon{
+    cursor: pointer;
+}
+.span-counter{
+    font-weight: 600;
+}
+.profile-collapse{
+    border-top: 1px solid rgba(var(--b38,219,219,219),1);
+}
+.profile-collapse ul li{
+    margin-right: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 52px;
+    height: 52px;
+    color: rgba(var(--f52,142,142,142),1);
+    font-weight: 500;
+}
+.profile-collapse svg{
+    margin-right: 5px;
+}
+.active{
+    background: #000;
+    color : #fff
+}
+.active-content{
+    display: block;
+}
+.content{
+    display: none!important;
+}
+.active-tab{
+    display: block;
+    position: relative;
+    color: #000!important;
+}
+.active-tab::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: -1px;
+    left: 0;
+}
+.tabs{
+    display: none;
+}
+.profile-show-box{
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.profile-show-box #posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 20px;
+}
+.profile-show-box #posts .post-box{
+    width: 293px;
+    height: 293px;
+}
+.profile-show-box #recorded .recorded-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 20px;
+    align-items: center;
+}
+.profile-show-box .newCollection a{
+    text-decoration: none!important;
+    font-size: 13px;
+    font-weight: bold;
+    color: rgba(var(--d69,0,149,246),1);
+}
+.profile-show-box .newCollection span{
+    color: rgba(var(--f52,142,142,142),1);
+    user-select: none;
+    cursor: text;
+}
+.profile-show-box #ig-tv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(var(--f52,142,142,142),1);
+    user-select: none;
+    cursor: text;
+    font-size: 13px;
+}
+.profile-show-box #ig-tv button{
+    background-color: rgba(var(--d69,0,149,246),1);
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.profile-show-box #tagged{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px 20px;
+}
+

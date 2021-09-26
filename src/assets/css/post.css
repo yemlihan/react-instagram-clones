@@ -1,0 +1,128 @@
+.post-card .post-title{
+    background: #fff;
+}
+.post-card .post-title .post-title-icon img{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.post-card .post-title .post-title-user{
+    font-weight: bold;
+}
+.post-card .post-title .post-title-user span{
+    overflow: hidden;
+    line-height: 16px;
+    font-size: 15px;
+    text-overflow: ellipsis;
+}
+.post-card .post-title .post-title-user span:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.post-card .post-title .post-title-config:hover{
+    cursor: pointer;
+}
+.post-card .post-body{
+    width: 100%;
+}
+.post-card .post-body img{
+    width: 100%;
+    min-height: 350px;
+    max-height: 750px;
+}
+.post-card .post-notifications .post-notifications-icons div{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.post-card .post-notifications .post-notifications-share svg{
+    cursor: pointer;
+}
+.post-card .post-time span{
+    font-size: 10px;
+}
+.post-card .post-add-comments{
+    border-top: 1px solid rgba(var(--ce3,239,239,239),1);
+    height: 50px;
+}
+.post-card .post-add-comments button:first-child{
+    background: none;
+    border: none;
+    outline: none;
+}
+.post-card .post-add-comments input{
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.dot-modal{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.dot-modal .post-settings{
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    border-radius: 5%;
+}
+.dot-modal .post-settings .post-setting-item{
+    padding: 4px 8px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(var(--b6a,219,219,219),1);
+    font-size: 14px;
+    user-select: none;
+    vertical-align: middle;
+}
+.dot-modal .post-settings .post-setting-item:active{
+    background-color: rgba(0,0,0,.1);
+}
+.dot-modal .post-settings .post-setting-item:last-child{
+    border: none;
+}
+.like-user{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+}
+.like-user:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.post-likes-icon b:last-child{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    white-space: nowrap;
+    padding-left: 5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.post-likes-icon b:last-child:hover{
+    cursor: pointer;
+}
+.post-total-comments{
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 14px;
+    line-height: 15px;
+}
+.post-total-comments:hover{
+    cursor: pointer;
+}
+.comment-post{
+    font-size: 14px;
+}

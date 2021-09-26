@@ -1,0 +1,128 @@
+.suggestions{
+    max-width: 320px;
+    right: 17%;
+    transform: translate(11%);
+    z-index: -1;
+}
+.suggestion{
+    padding: 20px 15px 15px 25px;
+}
+.suggestion-user-change{
+    font-size: 11px;
+}
+.suggestion-username{
+    line-height: 0.9;
+}
+.suggestion-user-name b{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-weight: 600;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    font-size: 13px;
+}
+.suggestion-user-name p {
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 14px;
+}
+.suggestion-user-change a{
+    text-decoration: none!important;
+}
+.for-you-span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.all-see-span {
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 600;
+}
+.suggestion-follow{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Suggestion */
+@media only screen and (max-width: 1500px){
+    .suggestions{
+       right: 21%;
+    }
+}
+@media only screen and (max-width: 1550px){
+    .suggestions{
+       right: 20%;
+    }
+}
+@media only screen and (max-width: 1450px){
+    .suggestions{
+       right: 20%;
+    }
+}
+@media only screen and (max-width: 1400px){
+    .suggestions{
+       right: 17%;
+    }
+}
+@media only screen and (max-width: 1350px){
+    .suggestions{
+       right: 120%;
+    }
+}
+@media only screen and (max-width: 1300px){
+    .suggestions{
+       right: 15%;
+    }
+}
+@media only screen and (max-width: 1250px){
+    .suggestions{
+       right: 13%;
+    }
+}
+@media only screen and (max-width: 1200px){
+    .suggestions{
+       right: 11%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .suggestions{
+       right: 9%;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .suggestions{
+       right: 7%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .suggestions{
+       right: 6%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .suggestions{
+       right: 5%;
+    }
+}
+@media only screen and (max-width: 990px){
+    .suggestions{
+       display: none;
+    }
+}
+
+
