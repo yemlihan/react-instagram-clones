@@ -3,10 +3,26 @@ import { Link } from 'react-router-dom'
 import '../assets/css/header.css'
 import {AiOutlineSearch,AiFillCloseCircle,AiFillHome,AiOutlineCompass,AiOutlineHeart,AiFillHeart} from 'react-icons/ai'
 import {RiMessengerLine} from 'react-icons/ri'
+import { MainContext } from '../api/MainContext'
+import { getAuth, onAuthStateChanged ,signOut } from "firebase/auth";
+import {useHistory} from 'react-router-dom';
+import { AuthContext } from '../api/AuthContext'
 
 function Header() {
+    const auth = getAuth();
+    const history = useHistory();
+    const {user,setUser} = useContext(AuthContext)
     const [showResults,setShowResult] = useState(false)
 
+    const logout = () => {
+        const auth = getAuth();
+        signOut(auth).then(() => {
+        // Sign-out successful.
+        history.push('/signin')
+        }).catch((error) => {
+        // An error happened.
+        });
+    }
     
 
     const activity = () => {
@@ -41,6 +57,7 @@ function Header() {
                 <Link to="/">
                     <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" alt="" />
                 </Link>
+                <button onClick={logout}>Çıkış Yap</button>
             </div>
             <div className="search">
                 <input type="text" id="search" name="search" placeholder="Ara"/>

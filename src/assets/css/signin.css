@@ -1,0 +1,136 @@
+.signin-img{
+    background-image: url("https://www.instagram.com/static/images/homepage/home-phones.png/43cc71bb1b43.png");
+    background-position: 0 0;
+    width: 450px;
+    height: 620px;
+}
+.signin-img img{
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.signin-form {
+    height: 100%;
+    width: 350px;
+}
+.signin-form h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+.signin-form .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align:center ;
+    flex-direction: column;
+}
+.signin-form .card .card-title{
+   background-image: url('https://www.instagram.com/static/bundles/es6/sprite_core_32f0a4f27407.png/32f0a4f27407.png');
+    width: 180px;
+    height: 52px;
+    background-position: 0 -130px;
+    margin-top: 30px;
+}
+.signin-form .card .card-body input[type="text"]{
+    background-color: #fafafa;
+    outline: none;
+    border: 1px solid #dbdbdb;
+    font-size: 14px;
+    line-height: 18px;
+    color:#262626;
+    height: 36px;
+    width: 260px;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.signin-form .card .card-body button{
+    width: 260px;
+    background: #0095f6;
+    border: 0;
+    outline: none;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.signin-form .card .card-body button a{
+    width: 260px;
+    height: 30px;
+    display: block;
+    color :#fff;
+    text-decoration: none;
+    align-items: center;
+    line-height: 30px;
+}
+.signin-form .card .card-body button:hover{
+    opacity: 0.7;
+}
+.signin-form .card .card-hr .hr{
+    height: 1px;
+    background-color:rgba(var(--b38,219,219,219),1);
+    width: 115px;
+}
+.signin-form .card .card-hr  span{
+    margin:0 10px ; 
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    color : #8e8e8e;
+}
+.card-login-forget .card-login span{
+    font-size: 15px;
+    color: #385185;
+    font-weight: 500;
+}
+.card-login-forget .card-login svg{
+    color: #385185;
+}
+.card-login-forget .card-forget{
+    font-size: 12px;
+}
+.account-dont {
+    width: 100%;
+    background: #fff;
+    border:1px solid rgba(0, 0, 0, 0.125) ;
+    border-radius: 4px;
+}
+.account-dont span{
+    font-size: 14px;
+}
+.account-dont button{
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #0095f6;
+}
+.download-app img{
+    width: 135px;
+    height: 40px;
+    margin-right: 10px;
+}
+.download-app span{
+    font-size: 13px;
+}
+.footer .footer-items {
+    padding:0px 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer .footer-items div{
+    margin-right: 15px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #8e8e8e;
+    cursor: pointer;
+}
+.footer .footer-copyright{
+    font-size: 12px;
+    color: #8e8e8e;
+}
+.footer .footer-copyright span:first-child{
+    margin-right: 15px;
+}
