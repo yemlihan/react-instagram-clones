@@ -1,0 +1,60 @@
+{
+   "users":[
+       {
+      "id":0,
+      "userId":1,
+      "name":"Yemlihan",
+      "surname":"Sapan",
+      "username":"Yemlihan Sapan",
+      "bio":"bio",
+      "userPP":"https://play-lh.googleusercontent.com/GNF5wSF3XNLIZv0iMajukuMjz23E7XiQtgyJNI6P0ZeGMBYT8fonyv8u_q1Qwpmj3g",
+      "posts":[
+         {
+            "id":0,
+            "name":"first post",
+            "img" : "https://www.girisimhaberleri.com/wp-content/uploads/2021/01/Reels_IOSX_3.jpeg"
+         },
+         {
+            "id":1,
+            "name":"second post",
+            "img" : "https://cdn.btgunlugu.com/uploads/2020/11/Instagram-sifre-kirma-yontemleri.jpg"
+         }, 
+         {
+            "id":2,
+            "name":"three post",
+            "img" : "https://static.pembeteknoloji.com.tr/wp-content/uploads/2021/06/Instagram.png"
+         },
+         {
+            "id":3,
+            "name":"four post",
+            "img" : "https://cdn.vox-cdn.com/thumbor/3tBffyrKb7DEZxBmvYLCAS2IHN0=/0x0:1224x750/1200x800/filters:focal(515x278:709x472)/cdn.vox-cdn.com/uploads/chorus_image/image/69776263/visualsearchInstagram.0.jpeg"
+         }, 
+         {
+            "id":4,
+            "name": "five post",
+            "img" : "https://img.tamindir.com/2020/05/426141/com-instagram-android-android-screenshots-1.png"
+         }, 
+         {
+            "id":5,
+            "name":"six post",
+            "img" : "https://static.pembeteknoloji.com.tr/wp-content/uploads/2021/06/Instagram.png"
+         }, 
+         {
+            "id":6,
+            "name":"seven post",
+            "img" : "https://www.girisimhaberleri.com/wp-content/uploads/2021/01/Reels_IOSX_3.jpeg"
+         },
+         {
+            "id":7,
+            "name":"eight post",
+            "img" : "https://i.guim.co.uk/img/media/9c443a3b8fbb01a2dd0d3054838f172518d8f8d3/0_0_2480_1550/master/2480.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=2ab92b0a32be458d93e7e858611312c3"
+         },
+         {
+            "id":8,
+            "name":"nine post",
+            "img" : "https://mk0apibacklinkov1r5n.kinstacdn.com/app/uploads/2020/08/instagram-users-post-banner.png"
+         }
+      ]
+   }
+]
+}
